@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+.yarn-integrity
+
+# Vue
+.DS_Store
+.vite/
+dist/
+coverage/
+.env.local
+.env.*.local
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.c9/
+*.launch
+*.sublime-workspace
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database files
+*.sqlite
+*.db 
