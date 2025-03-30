@@ -1,8 +1,8 @@
-# Comprehensive Guide to Crypto Toolkit
+# 🔐 Comprehensive Guide to Crypto Toolkit
 
 > [فارسی](READMEfa.md) | English
 
-## Table of Contents
+## 📋 Table of Contents
 - [Introduction](#introduction)
 - [Installation and Setup](#installation-and-setup)
 - [Logging In](#logging-in)
@@ -14,13 +14,13 @@
 - [Contributing](#contributing)
 - [Copyright](#copyright)
 
-## Introduction
+## 🚀 Introduction
 
 Crypto Toolkit is a comprehensive educational platform for learning about the world of cryptocurrencies and blockchain. This platform contains educational content in various categories, allowing users to read materials, bookmark them, and take advantage of its diverse features.
 
 This project is designed to provide a reliable and practical educational resource for individuals interested in blockchain technology and cryptocurrencies. The educational content covers everything from basic concepts to advanced topics and is suitable for users with different levels of knowledge and experience.
 
-## Installation and Setup
+## ⚙️ Installation and Setup
 
 ### Prerequisites
 - Node.js version 14 or higher
@@ -29,31 +29,31 @@ This project is designed to provide a reliable and practical educational resourc
 
 ### Installation Steps
 
-1. **Clone the Repository**
+1. **Clone the Repository** 📂
    ```bash
    git clone https://github.com/xPOURY4/crypto-toolkit.git
    cd crypto-toolkit
    ```
 
-2. **Install Frontend Dependencies**
+2. **Install Frontend Dependencies** 🖥️
    ```bash
    cd frontend
    npm install
    ```
 
-3. **Install Backend Dependencies**
+3. **Install Backend Dependencies** 🔧
    ```bash
    cd ../backend
    pip install -r requirements.txt
    ```
 
-4. **Start the Frontend Development Server**
+4. **Start the Frontend Development Server** 🚀
    ```bash
    cd ../frontend
    npm run dev
    ```
 
-5. **Start the Backend Development Server**
+5. **Start the Backend Development Server** 🏃
    ```bash
    cd ../backend
    python main.py
@@ -61,7 +61,7 @@ This project is designed to provide a reliable and practical educational resourc
 
 You can now access the application at `http://localhost:5173` (or the port shown in your terminal).
 
-## Logging In
+## 🔑 Logging In
 
 To access all features of the platform, you need to log in to your account. For development and testing, you can use the following accounts:
 
@@ -73,129 +73,129 @@ To access all features of the platform, you need to log in to your account. For 
 - **Email**: user@example.com
 - **Password**: password
 
-## User Panel
+## 👤 User Panel
 
 After logging in, users are directed to the dashboard which includes the following sections:
 
-### Dashboard
+### Dashboard 📊
 - Display a summary of bookmarked content
 - Recently viewed content
 - Personalized recommendations
 
-### Categories
+### Categories 📁
 - View all content categories
 - Search within categories
 - Filter by topic
 
-### Educational Content
+### Educational Content 📚
 - View educational content in each category
 - Bookmark content for later reading
 - Search and filter content
 
-### Bookmarks
+### Bookmarks 🔖
 - View list of bookmarked content
 - Remove content from bookmarks
 - Sort by date added or name
 
-### Notifications
+### Notifications 🔔
 - View system and content notifications
 - Mark notifications as read
 - Clear notifications
 
-### Profile
+### Profile 👤
 - Edit personal information
 - Change password
 - Manage account security settings
 
-### Appearance Settings
+### Appearance Settings 🎨
 - Toggle light/dark mode
 - Select color theme (default, ocean, sunset, forest)
 - Content display settings
 
-## Admin Panel
+## 👑 Admin Panel
 
 The admin panel is only accessible to users with the `admin` role and includes the following sections:
 
-### User Management
+### User Management 👥
 - View user list
 - Add, edit, and delete users
 - Change user status (active/inactive)
 - Change user roles (admin/regular user)
 
-### Category Management
+### Category Management 📋
 - View category list
 - Add, edit, and delete categories
 - Change category status (active/inactive)
 
-### Content Management
+### Content Management 📝
 - View list of educational content
 - Add, edit, and delete content
 - Change content status (published/draft/archived)
 - Change content category
 - Set content difficulty level
 
-## Features and Capabilities
+## ✨ Features and Capabilities
 
-### Dark/Light Mode
+### Dark/Light Mode 🌓
 The application supports dark and light modes. Users can:
 - Manually switch between dark and light modes
 - Set the application to follow system settings
 - Adjust transition time between modes
 
-### Color Themes
+### Color Themes 🎨
 Four different color themes are available in the application:
 - **Default**: Combination of teal and blue colors
-- **Ocean**: Combination of dark and light blue colors
-- **Sunset**: Combination of orange and red colors
-- **Forest**: Combination of green and teal colors
+- **Ocean**: Combination of dark and light blue colors 🌊
+- **Sunset**: Combination of orange and red colors 🌅
+- **Forest**: Combination of green and teal colors 🌲
 
-### Security
+### Security 🔒
 - Authentication using JWT tokens
 - WebAuthn support for passwordless authentication
 - Access restrictions based on user role
 - Password change and recovery options
 - Advanced encryption for storing sensitive data
 
-### Responsiveness
+### Responsiveness 📱
 All pages of the application are designed responsively and display correctly on different devices:
 - Mobile phones (width less than 640px)
 - Tablets (width between 640px and 1024px)
 - Desktop (width greater than 1024px)
 
-### Performance Optimization
+### Performance Optimization ⚡
 - Lazy loading for components and images
 - Data caching to reduce network requests
 - Search Engine Optimization (SEO)
 
-## Step-by-Step Guide
+## 📝 Step-by-Step Guide
 
-### 1. Logging in as a Regular User
+### 1. Logging in as a Regular User 👤
 1. Go to the login page at `/login`
 2. Enter the regular user email and password
 3. Click the "Login" button
 4. You'll be directed to the user dashboard
 
-### 2. Logging in as an Admin
+### 2. Logging in as an Admin 👑
 1. Go to the login page at `/login`
 2. Enter the admin email and password
 3. Click the "Login" button
 4. You'll be directed to the admin dashboard
 5. To access management sections, select "User Management", "Category Management", or "Content Management" from the main menu
 
-### 3. Browsing Categories and Content
+### 3. Browsing Categories and Content 🔍
 1. Select "Categories" from the main menu
 2. Click on a category of interest to view its content
 3. Click on a content title to view its details
 4. To bookmark content, click on the "Bookmark" icon
 
-### 4. Managing Profile and Settings
+### 4. Managing Profile and Settings ⚙️
 1. Click on your username at the top of the page
 2. Select "Profile" from the dropdown menu
 3. Edit your personal information
 4. To change your password, fill in the appropriate fields
 5. To change appearance settings, select "Appearance Settings" from the main menu
 
-### 5. Adding New Content (Admin Only)
+### 5. Adding New Content (Admin Only) ✏️
 1. From the admin panel, select "Content Management"
 2. Click the "Add Content" button
 3. Fill out the form and select the appropriate category
@@ -203,21 +203,21 @@ All pages of the application are designed responsively and display correctly on 
 5. Select the publication status (draft/published)
 6. Click the "Save" button
 
-## Real-World Applications
+## 🌐 Real-World Applications
 
-### Blockchain Development Team Training
+### Blockchain Development Team Training 👨‍💻
 The Crypto Toolkit platform is extremely useful for training new members of blockchain development teams. Managers can manage documentation and educational resources in a centralized location and track team members' progress.
 
-### Introduction to Cryptocurrency Concepts
+### Introduction to Cryptocurrency Concepts 💰
 For newcomers to the world of cryptocurrencies, this platform serves as a comprehensive educational resource. Users can start with basic concepts and gradually move on to more advanced topics.
 
-### Security Reference for Developers
+### Security Reference for Developers 🛡️
 Smart contract developers can use the security resources available on the platform to identify and prevent common vulnerabilities.
 
-### Use in Educational Settings
+### Use in Educational Settings 🎓
 Instructors and universities can use this platform to deliver courses on blockchain and cryptocurrencies.
 
-## Contributing
+## 🤝 Contributing
 
 We welcome your contributions to the development of this project. To contribute:
 
@@ -227,8 +227,8 @@ We welcome your contributions to the development of this project. To contribute:
 4. Push to your branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## Copyright
+## ©️ Copyright
 
 Copyright (c) 2025 xPOURY4
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
